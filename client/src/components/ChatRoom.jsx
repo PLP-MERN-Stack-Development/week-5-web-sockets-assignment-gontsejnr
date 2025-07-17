@@ -113,18 +113,12 @@ const ChatRoom = ({ username, avatar }) => {
     setShowFileUpload(false);
   };
 
-  const toggleUserList = () => {
-    setShowUserList((prev) => !prev);
-  };
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
   };
 
   const closeMobileMenu = () => {
     setShowMobileMenu(false);
-  };
-  const toggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
   };
   const handleRoomSelect = (roomId) => {
     joinRoom(roomId);

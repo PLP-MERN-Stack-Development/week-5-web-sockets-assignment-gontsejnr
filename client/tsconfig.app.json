@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/types/theme-provider.jsx"],
   "exclude": ["node_modules", "dist", "build"],
   "compilerOptions": {
     // ...
